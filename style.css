@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 3500px;
+}
+
+.header {
+    display: inline;
+    justify-content: center;
+}
+
+.header .icon1 img {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid rgb(30, 240, 11);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: inline;
+    float: left;
+}
+
+.header .text a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.search input {
+    padding: 5px;
+    margin: -45px 8px;
+    justify-content: center;
+    float: right;
+    display: inline;
+    width: 73px;
+    border-radius: 8px;
+}
+
+.navbar {
+    
+    display: block;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding-left: 30%;
+}
+
+.navbar ul li {
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(72, 78, 11);
+}
+.navbar ul li:hover{
+    background-color: rgb(159, 243, 243);
+}
+.navbar li a:hover{
+    color: rgb(241, 236, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pooja{
+    margin: 0px 43%;
+    border-radius: 10px;
+    background-color: rgba(230, 80, 80, 0.63);
+    position: static;
+    font-weight: bold;
+    left: 45%;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+.d1 img{
+    height: 250px;
+    position: relative;
+    left:43%;
+    border: 1px solid rgb(131, 243, 57);
+    border-radius: 10px;
+}
+#desc{
+    margin: 12px;
+    padding: 6px;
+    background-color: rgba(245, 182, 105, 0.452);
+    font-weight: 200;
+    font-size: 19px;
+    
+}
+.d2 img{
+    height: 250px;
+    position: relative;
+    left:43%;
+    border: 1px solid rgb(131, 243, 57);
+    border-radius: 10px;
+}
+.d3 img{
+    height: 250px;
+    position: relative;
+    left:43%;
+    border: 1px solid rgb(131, 243, 57);
+    border-radius: 10px;
+}
+#imgcont img{
+    border: 2px solid red;
+    border-radius: 12px;
+    display: inline;
+    height: 250px;
+    padding: 0px;
+    margin: 50px;
+}
+.d4 img{
+    margin: 10px;
+    height: 250px;
+    position: relative;
+    left:10%;
+    border: 5px solid rgba(243, 209, 57, 0.829);
+    border-radius: 10px;
+}
+.d5 img{
+    margin: 10px;
+    height: 250px;
+    position: relative;
+    left:20%;
+    border: 3px solid rgb(131, 243, 57);
+    border-radius: 10px;
+}
+.d6 img{
+    margin: 10px;
+    height: 250px;
+    position: relative;
+    left:37%;
+    border: 5px solid rgba(243, 209, 57, 0.829);
+    border-radius: 10px;
+}
+.d7 img{
+    margin: 10px;
+    height: 200px;
+    position: relative;
+    left:5%;
+    border: 5px solid rgba(243, 209, 57, 0.829);
+    border-radius: 10px;
+}
+footer{
+    margin: 1%;
+    padding-left: 35%;
+}
